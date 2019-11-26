@@ -1,6 +1,7 @@
 package endpointsTestClasses;
 
 import io.restassured.response.ValidatableResponse;
+import org.junit.Ignore;
 import org.junit.Test;
 import specificationns.ApiUnknownEndpointSpec;
 import static io.restassured.RestAssured.given;
@@ -44,6 +45,7 @@ public class ApiUnknownEndPoint {
     }
 
     // #6 check that status code = 200
+    @Ignore
     @Test
     public void checkStatusCode(){
         given()

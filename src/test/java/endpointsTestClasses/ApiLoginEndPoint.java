@@ -21,6 +21,8 @@ public class ApiLoginEndPoint {
                 .spec(apiLoginEndpointSpec.responseSpecification)
                 .and()
                 .body("token", equalTo("QpwL5tke4Pnpja7X4"));
+        System.out.println("==========================================");
+
     }
 
     @Test
